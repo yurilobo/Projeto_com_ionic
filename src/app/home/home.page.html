@@ -6,8 +6,71 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding"> 
+<ion-content  [fullscreen]="true" class="ion-padding"> 
 
   <h1>Titulo do meu App</h1>
-  <p>Conteúdo do meu App</p>
+  <h1>Botões</h1>
+  <ion-button>
+  	Padrão
+  </ion-button>
+  <ion-button href="http://google.com.br">
+  	Link
+  </ion-button>
+  <!--cores-->
+  <h4>Botões</h4>
+  <ion-button color="primary">
+  	Prymary
+  </ion-button>
+  <ion-button color="secondary">
+  	Secondary
+  </ion-button>
+
+  <h4>Botões expandidos</h4>
+  <ion-button expand="full">
+  	Full
+  </ion-button>
+
+   <h4>Botões Arredondados</h4>
+  <ion-button shape="roud">
+  	Botão arrendodado
+  </ion-button>
+
+   <h4>Preenchimento</h4>
+  <ion-button fill="outline" color="warning" expand="block">
+  	preenchimento
+  </ion-button>
+
+  <h4>Icones</h4>
+  <ion-button >
+  	<ion-icon slot="start" name="star"></ion-icon>
+  	Icone
+  </ion-button><br>
+
+  <ion-button >
+  	<ion-icon slot="icon-only" name="star"></ion-icon>
+  </ion-button><br>
+
+  <ion-button >
+  	<ion-icon slot="end" name="star"></ion-icon>
+  </ion-button><br>
+
+  <h4>Tamanhos de botões</h4>
+  
+<ion-button size="large"  >
+ Large
+</ion-button><br>
+
+<ion-button size="small" >
+  Small
+</ion-button><br>
+
+
 </ion-content>
+
+<ion-footer>
+	<ion-toolbar>
+		<ion-title>
+			<h4>Rodapé</h4>
+		</ion-title>
+	</ion-toolbar>
+</ion-footer>
