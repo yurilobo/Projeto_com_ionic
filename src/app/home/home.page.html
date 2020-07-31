@@ -8,16 +8,131 @@
 
 <ion-content  [fullscreen]="true" class="ion-padding"> 
 
+	<h4>Listas</h4>
+	<ion-lista>
+		<ion-item>
+			<ion-label>
+			1.lorem ypsum dolor sit amet
+			</ion-label>
+		</ion-item>
+		<ion-item>
+			<ion-label>
+			1.lorem ypsum dolor sit amet
+			</ion-label>
+		</ion-item>
+	</ion-lista>
+
+	<h4>Listas com avatar</h4>
+	<ion-lista>
+		<ion-item>
+			<ion-avatar slot="start">
+			<ion-img src="https://source.unsplash.com/random/200x200"></ion-img>	
+			</ion-avatar>
+			<ion-label>
+			YURI ANDERSON
+			</ion-label>
+		</ion-item>
+		<ion-item>
+			<ion-avatar>
+			<ion-img src="https://source.unsplash.com/random/200x200"></ion-img>	
+			</ion-avatar>
+			<ion-label>
+			RUAN LOBO
+			</ion-label>
+		</ion-item>
+	</ion-lista>
+
+	<h4>Listas slide</h4>
+	<ion-list>
+		<ion-item-sliding>
+			<ion-item>
+				<ion-label>
+					YURI ANDERSON
+				</ion-label>
+			</ion-item>
+			<ion-item-options>
+				<ion-item-option>
+					Alterar
+				</ion-item-option>
+				<ion-item-option>
+					Excluir
+				</ion-item-option>
+			</ion-item-options>
+		</ion-item-sliding>
+	</ion-list>
+
+
+
+	<h4>Catões com listagem de itens</h4>
+	
+		<ion-card>
+			<ion-item href="https://google.com.br"> 
+				<ion-icon slot="start" name="add"></ion-icon>
+				<ion-label>
+					1.lorem ypsum dolor sit amet
+				</ion-label>
+			</ion-item>
+			<ion-item>
+				<ion-icon slot="start" name="star"></ion-icon>
+				<ion-label>
+					1.lorem ypsum dolor sit amet
+				</ion-label>
+			</ion-item>
+		</ion-card>
+		
+	
+
+
+
+
+
 	<h4>Catões</h4>
-	<ion-card>
+	<ion-card color="danger">
 		<ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
 		<ion-card-title>
 				lorem ypsum dolore sit met
-			</ion-card-title>
-			<p>ola bom dia meu nome e yuri , stou aprendendo a usar o ionic</p>
+		</ion-card-title>
+			<p>ola bom dia meu nome e yuri , estou aprendendo a usar o ionic</p>
 
 	</ion-card>
 
+	<h4>Catões com cabeçalho</h4>
+	<ion-card  >
+		<ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
+		<ion-card-header>
+			<ion-card-title>
+				lorem ypsum dolore sit met
+		</ion-card-title>
+		<ion-card-subtitle>
+				lorem ypsum dolore sit met
+		</ion-card-subtitle>
+		</ion-card-header>
+		<ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
+		
+			<p>ola bom dia meu nome e yuri , estou aprendendo a usar o ionic</p>
+
+	</ion-card>
+
+	<!--
+	<h4>Catões</h4>
+	<ion-card color="danger" mode="ios">
+		<ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
+		<ion-card-title>
+				lorem ypsum dolore sit met
+		</ion-card-title>
+			<p>ola bom dia meu nome e yuri , estou aprendendo a usar o ionic</p>
+
+	</ion-card>
+	<h4>Catões</h4>
+	<ion-card color="danger" mode="md">
+		<ion-img src="https://source.unsplash.com/random/800x600"></ion-img>
+		<ion-card-title>
+				lorem ypsum dolore sit met
+		</ion-card-title>
+			<p>ola bom dia meu nome e yuri , estou aprendendo a usar o ionic</p>
+
+	</ion-card>
+	-->
 	<!--
   <h1>Titulo do meu App</h1>
 
